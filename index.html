@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Generator</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div id="form">
+      <input type="color" id="seed" />
+      <select name="type" id="type">
+        <option value="monochrome">Monochrome</option>
+        <option value="monochrome-dark">Monochrome-Dark</option>
+        <option value="monochrome-light">Monochrome-Light</option>
+        <option value="analogic">Analogic</option>
+        <option value="analogic-complement">Analogic-Complement</option>
+        <option value="triad">Triad</option>
+        <option value="quad">Quad</option>
+      </select>
+      <button id="generate">Generate</button>
+    </div>
+    <div id="colors"></div>
+    <script src="index.js"></script>
+  </body>
+</html>
